@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 82633597}
   - component: {fileID: 82633596}
   m_Layer: 0
-  m_Name: Square
+  m_Name: square that blows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -290,7 +290,7 @@ GameObject:
   - component: {fileID: 191066694}
   - component: {fileID: 191066693}
   m_Layer: 0
-  m_Name: Square
+  m_Name: square that stops you from falling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -428,7 +428,7 @@ GameObject:
   - component: {fileID: 241978775}
   - component: {fileID: 241978774}
   m_Layer: 0
-  m_Name: Square
+  m_Name: animated square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -542,7 +542,7 @@ GameObject:
   - component: {fileID: 305280594}
   - component: {fileID: 305280593}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: meow text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -710,7 +710,7 @@ GameObject:
   - component: {fileID: 862666572}
   - component: {fileID: 862666574}
   m_Layer: 0
-  m_Name: Square (1)
+  m_Name: bouncy square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -851,7 +851,7 @@ GameObject:
   - component: {fileID: 1022205604}
   - component: {fileID: 1022205603}
   m_Layer: 0
-  m_Name: 14_0
+  m_Name: player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1052,7 +1052,7 @@ GameObject:
   - component: {fileID: 1094107080}
   - component: {fileID: 1094107079}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: circle to avoid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1183,12 +1183,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1094107078}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.56, y: -0.67, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.58473, y: 0.041799963, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1409087694}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1115380720
 GameObject:
@@ -1303,6 +1303,7 @@ Transform:
   - {fileID: 1022205602}
   - {fileID: 82633599}
   - {fileID: 191066695}
+  - {fileID: 1094107082}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1440553109
@@ -1317,7 +1318,7 @@ GameObject:
   - component: {fileID: 1440553110}
   - component: {fileID: 1440553112}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: ambiance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1488,7 +1489,7 @@ GameObject:
   - component: {fileID: 1542840437}
   - component: {fileID: 1542840438}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: random sounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1791,7 +1792,7 @@ GameObject:
   - component: {fileID: 2077513654}
   - component: {fileID: 2077513653}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2148,4 +2149,3 @@ SceneRoots:
   - {fileID: 1409087694}
   - {fileID: 1565580035}
   - {fileID: 382708934}
-  - {fileID: 1094107082}
